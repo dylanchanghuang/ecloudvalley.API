@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "93794fc1-6053-4357-9f76-72a4448d1fac",
+		"name": "eCloudvalley API",
+		"description": "伊雲谷API-考試作業",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bill",
+			"item": [
+				{
+					"name": "GetUnblendedCost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usageAccountId\": 505453236623,\r\n    \"currentPage\" : 1,\r\n    \"pageSize\" : 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44345/api/v1/bill/getunblendedcost",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44345",
+							"path": [
+								"api",
+								"v1",
+								"bill",
+								"getunblendedcost"
+							]
+						},
+						"description": "取得指定使用者帳號Id的帳單-未混和成本"
+					},
+					"response": []
+				},
+				{
+					"name": "GetUsageAmount",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usageAccountId\": 505453236623,\r\n    \"currentPage\" : 1,\r\n    \"pageSize\" : 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44345/api/v1/bill/getusageamount",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44345",
+							"path": [
+								"api",
+								"v1",
+								"bill",
+								"getusageamount"
+							]
+						},
+						"description": "取得指定使用者帳號Id的使用金額"
+					},
+					"response": []
+				}
+			],
+			"description": "使用者帳單資料"
+		}
+	]
+}
