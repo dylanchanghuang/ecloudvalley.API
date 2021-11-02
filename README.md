@@ -1,5 +1,3 @@
-伊雲谷面試試題:
-
 1. 開發工具: Visual Studio 2019  
    (1) Dapper  
    (2) Swashbuckle: 產生API文件  
