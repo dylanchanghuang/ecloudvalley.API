@@ -1,0 +1,10 @@
+.vs/
+*.user
+ecloudvalley.API/bin/
+ecloudvalley.API/obj/
+ecloudvalley.Application/bin/
+ecloudvalley.Application/obj/
+ecloudvalley.Domain/bin/
+ecloudvalley.Domain/obj/
+ecloudvalley.Infrastructure/bin/
+ecloudvalley.Infrastructure/obj/
